@@ -20,7 +20,11 @@ body {
   font-weight: 400;
   line-height: 1;
   letter-spacing: 0.002em;
+}
+
+.address-link {
   text-underline-offset: 4px;
+
 }
 
 .header__link_active {
@@ -55,7 +59,7 @@ body {
   line-height: 24.6px;
 }
 
-.address a {
+.address a, .header__link, .footer__menu-link {
   text-underline-offset: 4px;
 }
 
@@ -289,10 +293,6 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 21.18px;
-}
-
-.footer__menu-link {
-  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
