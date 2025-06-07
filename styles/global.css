@@ -35,6 +35,9 @@ img {
 
 button {
   font: inherit;
+  border: none;
+  padding: 0;
+  background-color: transparent;
 }
 
 address {
