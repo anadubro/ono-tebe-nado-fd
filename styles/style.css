@@ -12,20 +12,19 @@ body {
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 91px 50px;
+  padding: 88px 50px 90px 50px;
 }
 
 .header__link {
   font-size: 18px;
   font-weight: 400;
   line-height: 1;
-  letter-spacing: 0.003em;
-  text-decoration: none;
-  border-bottom: 1px solid #000;
+  letter-spacing: 0.002em;
+  text-underline-offset: 4px;
 }
 
 .header__link_active {
-  border: none;
+  text-decoration: none;
 }
 
 .header__links-list {
@@ -54,6 +53,10 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 24.6px;
+}
+
+.address a {
+  text-underline-offset: 4px;
 }
 
 .header__address {
@@ -289,12 +292,11 @@ body {
 }
 
 .footer__menu-link {
-  text-decoration: none;
-  border-bottom: 1px solid #000;
+  text-underline-offset: 4px;
 }
 
 .footer__menu-link_active {
-  border: none;
+  text-decoration: none;
 }
 
 .footer__menu-list {
